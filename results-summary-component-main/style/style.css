@@ -1,0 +1,187 @@
+@font-face {
+    font-family: 'MyWebFont';
+    src:  url('../assets/fonts/static/HankenGrotesk-Medium.ttf') format('ttf'),
+      url('../assets/fonts/static/HankenGrotesk-Bold.ttf') format('ttf'),
+      url('../assets/fonts/static/HankenGrotesk-ExtraBold.ttf') format('ttf');
+
+}
+:root {
+    font-family: 'Hanken Grotesk', sans-serif;
+
+}
+
+.body {
+  width: 450px;
+  display: flex;
+  margin: auto;
+  border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;}
+
+
+.result {
+  background: rgb(0, 36, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 36, 255, 1) 0%,
+    rgba(99, 84, 225, 1) 88%
+  );
+  width: 250px;
+  text-align: center;
+  border-radius: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.summary {
+  width: 210px;
+  padding: 20px;
+  text-align: center;
+}
+
+.score {
+  width: 80px;
+  height: 80px;
+  border-radius: 60px;
+  background: rgb(90,49,179);
+background: linear-gradient(0deg, rgba(90,49,179,1) 0%, rgba(43,28,171,1) 57%);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  padding: 30px 20px 10px 20px;
+  font-weight: 700;
+}
+
+.textResult {
+  color: rgb(165, 165, 165);
+  font-weight: 700;
+}
+#result {
+  color: white;
+  margin: 0px;
+  font-size: 35px;
+}
+#overHundred {
+  color: rgb(165, 165, 165);
+  margin: 0px;
+  font-size: 12px;
+}
+
+#summary {
+  margin: 0px;
+}
+#great {
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#comment {
+  padding-left: 30px;
+  padding-right: 30px;
+  color: rgb(165, 165, 165);
+  font-size: 12px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.catagories {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    column-gap: 10px;
+}
+
+.category {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding-left: 8px ;
+    align-items: center;
+    line-height:40px;
+    border-radius: 7px;
+    
+}
+.titles {
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 40px;
+    width: 50px;
+}
+.points {
+    font-size: 15px;
+    margin-right: 10px;
+}
+.rate {
+    color: rgb(46, 46, 46);
+}
+.percantage {
+    color: rgb(125, 125, 125);
+}
+#Reaction {
+    background-color: rgba(235, 185, 185, 0.5);
+}
+#Memory {
+    background-color: #eef0aa80;
+}
+#Verbal {
+    background-color: #d5ffd580;
+}
+#Visual {
+    background-color: rgb(251, 228, 255);
+}
+#title-reaction {
+    color: rgba(238, 33, 33, 0.5);
+}
+#title-memory {
+    color: #aaae3080;
+}
+#title-verbal {
+    color: #369f3680;;
+}
+#title-visual {
+    color: rgb(223, 42, 255);
+}
+.points {
+    display: flex;
+    font-size: 13px;
+    font-weight: bold;
+    
+}
+
+.btn {
+    color: white;
+    border: none;
+    background-color: rgb(28, 28, 63);
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    cursor: pointer;  
+    position: relative;
+    bottom: 0px;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.5);
+    transition: bottom 0.5s,
+                box-shadow 0.5s,
+                background 0.5s;
+}
+.btn:hover {
+    bottom: 5px;
+    box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.5);
+}
+.btn:active {
+    background: rgb(90,49,179);
+    background: linear-gradient(0deg, rgba(90,49,179,1) 0%, rgba(43,28,171,1) 57%);
+}
+
+
+
+.attribution {
+  margin-top: 100px;
+}
